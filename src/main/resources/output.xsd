@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="FULL-NAME" type="xs:string"></xs:element>
+	<xs:element name="COUNTRY" type="xs:string"></xs:element>
+
+	<xs:element name="LOCATION">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="COUNTRY" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="EMPLOYEE">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="FULL-NAME"></xs:element>
+				<xs:element ref="LOCATION"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>
