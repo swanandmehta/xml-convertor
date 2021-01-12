@@ -1,0 +1,7 @@
+<PERSON>
+	<NAME>MyName1</NAME>
+	<HOUSE>
+		<ADDRESS>MyLocation1</ADDRESS>
+		<COUNTRY>MyCountry1</COUNTRY>
+	</HOUSE>
+</PERSON>
